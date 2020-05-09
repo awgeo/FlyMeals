@@ -4,7 +4,7 @@
 
 The mock-up of a very simple app that helps cabin crew keep track of the number of meals on an aircraft, per cabin class, service and galley. 
 
-It may or may not be the next big thing, but this project has proven useful to learn more about (1) creating Multi-Index Pandas DataFrames (structured according to user input) then setting and retrieving values, (2) Python exception handling (try/except blocks), and (3) Python type annotations.
+It may not be the next big thing, but this project has proven useful to learn more about (1) creating Multi-Index Pandas DataFrames (structured according to user input) then setting and retrieving values, (2) Python exception handling (try/except blocks), and (3) Python type annotations.
 
 ### The problem
 
