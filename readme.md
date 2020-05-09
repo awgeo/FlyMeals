@@ -19,7 +19,7 @@ So for each service, in each cabin, we need to know where (that is, in which gal
 
 A simple mobile app that lets cabin crew (they each have iPads) walk through each galley, quickly recording the number of hot meals in each oven and lay-ups in each cart, and for which service and class. The input data forms a hierarchy (Cabins > Services > Galleys), which can be recorded in a table.
 
-To set this up, we need to ask (and could save this information) for the numbers of: galleys, services and classes (and assign a code to each). We then need to know how many ovens and carts there are in each galley. Based on this, we construct a hierarchical index object, e.g. in this mockup, a multi-index Pandas DataFrame. With this in place, we can start setting and retrieving values based on user inputs and requests.
+To set this up, we need to ask (and could save this information) for the numbers of: galleys, services and classes (and assign a code to each). We then need to know how many ovens and carts there are in each galley. Based on this, we construct a hierarchical index object - in this mockup, a multi-index Pandas DataFrame. With this in place, we can start setting and retrieving values based on user inputs and requests.
 
 Should this be turned into a mobile app (I'd like to try with Flutter and Dart), the user might swipe between cabins, services and galleys, and see subtotals update on the fly. But for now, it's a plain old .py script.
 
