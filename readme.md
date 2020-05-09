@@ -27,4 +27,4 @@ Run the script for yourself on my Azure Notebooks project.
 
 Example - mockup of Multi-Index DataFrame:
 
-![](Multi-index dataframe mockup.PNG)
+![](Multiindex_dataframe_mockup.PNG)
